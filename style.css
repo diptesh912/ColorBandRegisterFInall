@@ -1,0 +1,118 @@
+body{
+	
+	background:#885C7A;
+}
+#mainBox{
+	position:relative;
+	top: 100px;
+	left: 300px;
+	height: 50%;
+	width: 50%;
+	background-color:gold;
+	border:5px solid #ff8080;
+	border-radius: 40px;
+	text-align: center;
+	
+}
+
+#containt{
+	position:absolute;
+	left: 150px;
+	background-color:#39BCEA;
+	height:100px;
+	width:400px;
+	border-radius: 50px;
+	text-align: center;
+	
+}
+.default{
+	position:relative;
+	 background:black; 
+	left:30px;
+	margin-left:30px;
+	height:100px;
+	width: 10%;
+	float:left
+
+}
+.default1{
+	position:relative;
+	 background-color:black; 
+	left:60px;
+	margin-left:30px;
+	height:100px;
+	width: 10%;
+	float:left
+
+}
+
+.pri{
+	position:relative;
+	background-color:silver;
+	right:50px;
+	margin-left:30px;
+	height:100px;
+	width: 7%;
+	float:right;
+
+}
+
+select{
+	position:relative;
+	height:100%;
+	width:100%;	
+	color:black;
+	
+}
+.Brown {	
+	
+	background:#a52a2a;
+	color:#a52a2a
+	
+}
+.red {
+	background:red;
+	color:red;
+}
+.Orange{
+	background: orange;
+	color:orange;
+} 
+.yellow{
+	background: yellow;
+	color:yellow;
+}
+.Green{
+	background: green;
+	color:green;
+	
+}
+.Blue{
+	 background: blue;
+	 color:blue;
+}
+.Violet{
+	background: #ee82ee;
+	color:#ee82ee
+	
+}
+.Gray{
+	background: gray;
+	color:gray;
+	
+}
+.White
+{
+	background: #ffffff;
+	color:#ffffff;
+	
+}
+.Gold{
+	background: #ffd700;
+	color:#ffd700;
+}
+.Silver{
+	background: silver;
+	color:silver;
+	
+}

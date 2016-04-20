@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html ng-app="app">
+<head>
+<meta charset="ISO-8859-1">
+<title>ColorBand Register</title>
+<link rel="stylesheet" type="text/css" href="style.css">
+<script src="http://ajax.googleapis.com/ajax/libs/angularjs/1.4.8/angular.min.js"></script>
+<script src="app.js"></script>
+</head>
+<body ng-controller="myCtrl">
+<div id="mainBox">
+<h1>  OhmiGod </h1>
+ <p><strong>Clik Band To Change Color</strong> </p>
+<div id="containt">
+    <div class="default"> <select ng-class="default1" ng-model="color1" ng-options="x for x in colors"></select></div> 
+    <div class="default"> <select ng-class="default2" ng-model="color2" ng-options="y for y in colors"></select></div> 
+    <div class="default"> <select ng-class="default3" ng-model="color3" ng-options="z for z in colors"></select></div>    
+    <div class="pri">  <select ng-class="Pricision"  ng-model="color4" ng-options="p for p in Pricolors"></select>  </div> 
+</div>
+<br> <br> <br><br> <br> <br>
+<br> <br> <br>
+<button ng-click="calculate()">Calculate</button>
+<input type="text" ng-model="res">
+</div>
+
+</body>
+</html>
